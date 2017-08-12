@@ -49,7 +49,6 @@ header {
 
 header .content {
   display: flex;
-  align-items: center;
   padding: 1.875rem;
 }
 
@@ -380,13 +379,15 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  padding: 0 32px;
 }
 
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
+  font-size: 12px;
+  align-items: center;
+  height: 62px;
 }
 
 footer .copyright {
